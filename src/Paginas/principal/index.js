@@ -1,12 +1,7 @@
 import React from 'react';
 import './slide';
 import './style.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 // import AwesomeSlider from 'react-awesome-slider';
 // import 'react-awesome-slider/dist/styles.css';
@@ -22,9 +17,9 @@ function App() {
     let meses = "";
     let dia = date.getDate();
     
-    if(mes == 3){
+    if(mes === 3){
        meses = "Mar"
-    }else if(mes == 4){
+    }else if(mes === 4){
        meses = "Abr"
     }
     
@@ -85,9 +80,9 @@ function App() {
 
         </div>
       </section>
-
+ 
       <footer>
-        <div class="footer">
+        <div className="footer">
           { mostrarData()  }
 
         </div>

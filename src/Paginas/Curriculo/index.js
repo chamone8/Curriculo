@@ -8,8 +8,8 @@ function Curriculo() {
         <div>
             <div className="informacoesPessoais">
                 <div className="informacoes">
-                    {/* <img className="minhaImg" src={img} alt="Minha imagem" /> */}
-                    <img src="https://source.unsplash.com/random/100x100" />
+                    <img className="minhaImg" src={img} alt="Minha imagem" />
+                    {/* <img src="https://source.unsplash.com/random/100x100" /> */}
                     <br />
                     <p className="titleContato">Contato</p>
                     <br />
