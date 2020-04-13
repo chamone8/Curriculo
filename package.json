@@ -20,13 +20,13 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "devDependencies": {},
   "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
     ],
-    "devDependencies": {},
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
