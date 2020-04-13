@@ -7,6 +7,7 @@ import {Link} from "react-router-dom";
 // import 'react-awesome-slider/dist/styles.css';
 
 import portifolio1 from '../.././temp/2.jpg';
+import img from '../../temp/MinhaImagem.png';
 
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
       <header>
         <nav>
           <div className="slider" >
-            <img className="minhaImagem" src='https://source.unsplash.com/random/100x100' alt='Foto de Fundo' />
+            <img className="minhaImagem" src={img} alt='Foto de Fundo' />
           </div>
           <h3 className="nome">Felipe Chamone   </h3>
           <ul>
