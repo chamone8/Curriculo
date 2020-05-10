@@ -1,4 +1,8 @@
-(function(){
-	
-	
-})();
+(function funcoesGerais(){
+    function ativos(){
+     
+    }
+
+    
+    ativos();
+  }());

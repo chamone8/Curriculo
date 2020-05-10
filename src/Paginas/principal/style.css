@@ -2,7 +2,6 @@
         box-sizing: border-box;
     }
     body{
-        margin:20px 100px;
     background-color: #F3EFE0;
     }
     header{
@@ -45,6 +44,7 @@
     .dropdown{
         position: relative;
         display: inline-block;
+        
     }
     .dropdown-content {
         display: none;
@@ -52,7 +52,7 @@
         left: 770px;
         top: 49px;
         
-        min-width: 160px;
+        /* min-width: 160px; */
         
       }
       .dropdown-content ul{
@@ -114,13 +114,27 @@
         width: 100%;
         
     }
+    .minhasInformacoes p {
+        font-size: 20px;
+    }
     h5{
         font-size: 30px;
         padding-top:  70px;
     }
 
     
-
+    .drop li{
+        padding: 10px;
+        background-color: black;
+        margin-top: -10px;
+        border-radius: 3px;
+        transition: 12s;
+    }
+    
+    .drop li:hover{
+        opacity: 0.4;
+        
+    }
     .portifolioImg{
         display: flex;
         position: absolute;
@@ -135,9 +149,10 @@
     .footer{
         position: absolute;
         margin-top: 50px;
-        width: 100%;
+        padding-bottom: 40px;
         /* border: 100 black; */
         border-radius: 40px;
+        
         left: 80%;
         margin-bottom: 0;
     }

@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import img from '../../temp/MinhaImagem.png';
+import { Link } from 'react-router-dom';
 
 
 function Curriculo() {
@@ -8,7 +9,7 @@ function Curriculo() {
         <div>
             <div className="informacoesPessoais">
                 <div className="informacoes">
-                    <img className="minhaImg" src={img} alt="Minha imagem" />
+                    {/* <img className="minhaImg" src={img} alt="Minha imagem" /> */}
                     {/* <img src="https://source.unsplash.com/random/100x100" /> */}
                     <br />
                     <p className="titleContato">Contato</p>
@@ -45,8 +46,8 @@ function Curriculo() {
 
                 <div className="conhecimentos">
                     <h4>Principais conhecimentos</h4>
-                    <p>Javascrip  Asp .Net Core  node.Js</p>
-                    <p>React  Css  SQL Server  Desenvilvimento de API</p>
+                    <p className="con1">Javascrip<br/>Css<br/>  Asp .Net Core <br/>Desenvilvimento de API</p>
+                    <p className="con2">React.Js <br/> Node.js <br/>  SQL Server<br/>  <a href="https://www.linkedin.com/in/felipe-chamone-320aa917b/">Entre outras...</a>  </p>
                 </div>
 
             </div>
@@ -98,6 +99,7 @@ function Curriculo() {
 
                 </p>
             </div>
+            <Link className="voltar" to="/">Voltar</Link>
         </div>
     );
 }

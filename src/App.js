@@ -8,6 +8,7 @@ import {
 
 import App from './Paginas/principal';
 import Curriculo from './Paginas/Curriculo';
+import Contato from "./Paginas/Contato";
 
 
 export default function BasicExample() {
@@ -17,6 +18,7 @@ export default function BasicExample() {
         <Switch>
           <Route exact path="/" component={App} />
           <Route path="/curriculo" component={Curriculo} />
+          <Route path="/Contato" component={Contato} />
         </Switch>
       
     </Router>

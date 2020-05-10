@@ -1,0 +1,11 @@
+.contato{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+} 
+
+.contato img{
+    margin: 330px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
