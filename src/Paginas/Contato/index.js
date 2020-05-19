@@ -20,7 +20,7 @@ function Contato() {
 
                 <a href="https://api.whatsapp.com/send?phone=5531995784713&text=Ol%C3%A1%20Felipe"><p>Entre em contato pelo Whatsapp</p></a>
                 <a href="https://www.linkedin.com/in/felipe-chamone-320aa917b/"><p>Veja algumas informações do meu perfil no meu Linkdin</p></a>
-                <a href="https://github.com/chamone8"><p>Veja meus peojetos no GitHub</p></a>
+                <a href="https://github.com/chamone8"><p>Veja meus projetos no GitHub</p></a>
 
 
 

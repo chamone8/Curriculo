@@ -16,9 +16,11 @@ function App() {
     let dia = date.getDate();
 
     if (mes === 3) {
-      meses = "Mar"
+      meses = "Mar";
     } else if (mes === 4) {
-      meses = "Abr"
+      meses = "Mai";
+    }else if (mes === 5) {
+      meses = "Mai"
     }
 
     return dia + " de " + meses + " " + ano + " Belo Horizonte";
