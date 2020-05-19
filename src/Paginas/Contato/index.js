@@ -1,6 +1,6 @@
 import React from 'react';
 import manutencao from '../../temp/manutencao4.jpg';
-import './styleContato.css';
+// import './styleContato.css';
 
 function Contato() {
     return (

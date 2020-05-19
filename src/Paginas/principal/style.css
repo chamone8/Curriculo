@@ -107,16 +107,14 @@
         font-family: Times New Roman;
     }
     .container{
-        width:100%;
+        width:60%;
         height: 400px;
+        border-right: solid 1px;
         
     }
 
     .minhasInformacoes{
-        width: 60%;
-        border-right: solid 1px;
-        height: 400px;
-        
+        width: 100%;
         
     }
     .minhasInformacoes p {
