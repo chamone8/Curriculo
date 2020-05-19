@@ -76,11 +76,12 @@ function App() {
 
           </div>
 
-          <div className="portifolio" data-js="sslide">
 
-            <img className="portifolioImg" data-js="sslide" src={portifolio1} alt="portifolio" />
+        </div>
 
-          </div>
+        <div className="portifolio" data-js="sslide">
+
+          <img className="portifolioImg" data-js="sslide" src={portifolio1} alt="portifolio" />
 
         </div>
       </section>
