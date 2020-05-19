@@ -1,10 +1,10 @@
 import React from 'react';
 import manutencao from '../../temp/manutencao4.jpg';
-// import './styleContato.css';
+import './styleContato.css';
 
 function Contato() {
     return (
-        <div className="container">
+        <div className="container1">
 
             <div className="contato">
                 <h2>Contato</h2>
@@ -31,8 +31,6 @@ function Contato() {
             </div>
             <a className="voltar" href="https://meu-curriculo-felipe.herokuapp.com/">Voltar</a>    
         </div>
-
-
 
 
 

@@ -1,9 +1,5 @@
-body{   
-    margin: 0;
-    padding: 0;
-    
-}
-.container{
+
+.container1{
     
     background-color:#bfc0c0;
     top: 40px;
@@ -33,7 +29,7 @@ body{
     
 }
 
-.container .subTitle{
+.container1 .subTitle{
     margin-top: 50px;
     text-align: center; 
     margin-top: 80px;
@@ -42,7 +38,7 @@ body{
 }
 
 
-.container .corpo{
+.container1 .corpo{
     margin-top: 70px;
     border: 3px solid black;
     height: 500px;
@@ -55,13 +51,13 @@ body{
 }
 
 
-.container .corpo h5{
+.container1 .corpo h5{
     text-align: center;
     margin-top: -15px;
     margin-bottom: 100px;
 }
 
-.container .corpo p{
+.container1 .corpo p{
     margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -69,23 +65,23 @@ body{
     
 }
 
-.container .corpo a{
+.container1 .corpo a{
     text-decoration: none;
     color: #2d3142;
     text-align: center;
     font-weight: 800;
  }
 
- .container .corpo .rodape{
+ .container1 .corpo .rodape{
      margin-top: 150px;
  }
 
- .container .corpo a:hover{
+ .container1 .corpo a:hover{
      font-size: 20px;
      color: #000;
      font-weight: 900;
  }
- .container .voltar{
+ .container1 .voltar{
      align-items: center;
      margin-bottom: 30px;
  }
