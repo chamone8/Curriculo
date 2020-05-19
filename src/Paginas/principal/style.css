@@ -1,10 +1,10 @@
 
 
-@media screen and (min-width: 800px) { 
+/* @media screen and (max-width: 800px) { 
     .portifolioImg { 
      left: 900px;
     } 
-  } 
+  }  */
 *{
         box-sizing: border-box;
     }
@@ -151,7 +151,7 @@
     .portifolioImg{
         
         position: absolute;
-        left: 800px;
+        left: 850px;
         top: 280px;
         margin-left: 25px;
         width: 400px;
